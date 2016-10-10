@@ -151,6 +151,11 @@ body.top-search-open .dark #header-wrap:not(.not-dark) #top-search a,
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
 }
 
+.dark #header-wrap:not(.not-dark) #primary-menu > ul > li > a:hover,
+.dark #header-wrap:not(.not-dark) #primary-menu.style-2 > div > ul > li > a:not(.btn):hover {
+	color: #08E8DE !important;
+}
+
 .dark #header.full-header #header-wrap:not(.not-dark) #primary-menu > ul,
 #header.full-header.dark #header-wrap:not(.not-dark) #primary-menu > ul { border-right-color: rgba(255,255,255,0.15); }
 

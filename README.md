@@ -1,7 +1,5 @@
 # koach-www
 
-update test
-
 <!-- Brand Elements
 ============================================= -->
 Font: proxima-nova
