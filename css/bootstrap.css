@@ -2209,6 +2209,7 @@ select[multiple].input-lg {
 	-moz-user-select: none;
 	-ms-user-select: none;
 	user-select: none;
+	transition: all .5s;
 }
 .btn-outline {
     background-color: transparent;
@@ -2600,9 +2601,10 @@ fieldset[disabled] .btn-danger.focus {
 	background-color: #ffffff;
 }
 .btn-link {
-	color: #337ab7;
+	color: #32C5D2;
 	font-weight: normal;
 	border-radius: 0;
+	padding: 0 !important;
 }
 .btn-link,
 .btn-link:active,
@@ -2622,7 +2624,6 @@ fieldset[disabled] .btn-link {
 .btn-link:hover,
 .btn-link:focus {
 	color: #23527c;
-	text-decoration: underline;
 	background-color: transparent;
 }
 .btn-link[disabled]:hover,
@@ -2634,10 +2635,10 @@ fieldset[disabled] .btn-link:focus {
 }
 .btn-lg,
 .btn-group-lg > .btn {
-	padding: 10px 16px;
+	padding: 10px 22px;
 	font-size: 18px;
 	line-height: 1.3333333;
-	border-radius: 20px;
+	border-radius: 50px;
 }
 .btn-sm,
 .btn-group-sm > .btn {
