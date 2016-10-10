@@ -145,10 +145,20 @@ body {
 
 a {
 	text-decoration: none !important;
-	color: #1ABC9C;
+	color: #2AB4C0;
 }
 
-a:hover { color: #222; }
+a:hover { color: #2AB4C0; }
+
+#content a {
+	border-bottom: 1px solid #2AB4C0;
+	transition: all .2s;
+	-webkit-transition: all .2s;
+}
+
+#content a:hover {
+	padding-bottom: 3px;
+}
 
 a img { border: none; }
 
@@ -12417,7 +12427,7 @@ body:not(.device-touch) .tagcloud a {
 .pagination > li > a:hover,
 .pagination > li > span:hover,
 .pagination > li > a:focus,
-.pagination > li > span:focus { color: #1ABC9C; }
+.pagination > li > span:focus { color: #2AB4C0; }
 
 .btn-link:hover,
 .btn-link:focus { color: #222; }
