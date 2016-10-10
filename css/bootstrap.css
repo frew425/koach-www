@@ -2210,6 +2210,7 @@ select[multiple].input-lg {
 	-ms-user-select: none;
 	user-select: none;
 	transition: all .5s;
+  -webkit-transition: all .5s;
 }
 .btn-outline {
     background-color: transparent;

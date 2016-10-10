@@ -139,7 +139,7 @@ dl, dt, dd, ol, ul, li {
 
 body {
 	line-height: 1.5;
-	color: #555;
+	color: #444d58;
 	font-family: "proxima-nova",sans-serif;
 }
 
@@ -149,16 +149,6 @@ a {
 }
 
 a:hover { color: #2AB4C0; }
-
-#content a {
-	border-bottom: 1px solid #2AB4C0;
-	transition: all .2s;
-	-webkit-transition: all .2s;
-}
-
-#content a:hover {
-	padding-bottom: 3px;
-}
 
 a img { border: none; }
 
@@ -178,8 +168,7 @@ h3,
 h4,
 h5,
 h6 {
-	color: #444;
-	font-weight: 600;
+	color: #444d58;
 	line-height: 1.5;
 	margin: 0 0 30px 0;
 	font-family: "proxima-nova",sans-serif;
@@ -188,22 +177,17 @@ h6 {
 h5,
 h6 { margin-bottom: 20px; }
 
-h1 { font-size: 36px; }
+h1 { font-size: 36px; font-weight: 300; }
 
-h2 { font-size: 30px; }
+h2 { font-size: 30px; font-weight: 400; }
 
-h3 { font-size: 24px; }
+h3 { font-size: 26px; font-weight: 300; }
 
-h4 { font-size: 18px; }
+h4 { font-size: 20px; font-weight: 600; color: #2AB4C0; }
 
-h5 { font-size: 14px; }
+h5 { font-size: 20px; font-weight: 800; }
 
-h6 { font-size: 12px; }
-
-h4 { font-weight: 600; }
-
-h5,
-h6 { font-weight: bold; }
+h6 { font-size: 20px; font-weight: 800; color: #2AB4C0; }
 
 h1 > span:not(.nocolor),
 h2 > span:not(.nocolor),
@@ -1368,6 +1352,8 @@ body.stretched #header.full-header #primary-menu ul li.mega-menu .mega-menu-cont
 
 #primary-menu > div > ul > li > a.btn {
 	margin: 32px 0px 32px 15px;
+	transition: all .5s;
+  -webkit-transition: all .5s;
 }
 
 #logo + #primary-menu.style-2 { border-top: 0; }
@@ -3530,7 +3516,20 @@ body.stretched .container-fullwidth .breadcrumb { right: 60px !important; }
 	background-color: #FFF;
 }
 
-#content p { line-height: 1.8; }
+#content a {
+	border-bottom: 1px solid #2AB4C0;
+	transition: all .2s;
+	-webkit-transition: all .2s;
+}
+
+#content a:hover {
+	padding-bottom: 2px;
+}
+
+#content p {
+	line-height: 1.8;
+	font-size: 16px;
+}
 
 .content-wrap {
 	position: relative;
@@ -11172,8 +11171,8 @@ label.error { display: none !important; }
 	margin-bottom: 0;
 	font-weight: 700;
 	text-transform: uppercase;
-	letter-spacing: 1px;
-	color: #333;
+	letter-spacing: 2px;
+	color: #444d58;
 }
 
 .emphasis-title h1,
@@ -11183,7 +11182,7 @@ label.error { display: none !important; }
 	text-transform: none;
 }
 
-.heading-block h1 { font-size: 32px; }
+.heading-block h1 { font-size: 36px; }
 
 .heading-block h2 { font-size: 30px; }
 
@@ -11225,7 +11224,7 @@ label.error { display: none !important; }
 	display: block;
 	margin-top: 30px;
 	width: 40px;
-	border-top: 2px solid #444;
+	border-top: 2px solid #ACB5C3;
 }
 
 .center .heading-block:after,
