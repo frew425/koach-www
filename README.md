@@ -1,6 +1,6 @@
 # koach-www
 
-// Brand Elements
+// Brand Elements<br>
 Font: proxima-nova<br>
 Primary Grey: #263238<br>
 Primary Turquoise : #08E8DE<br>

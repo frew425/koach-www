@@ -13585,3 +13585,44 @@ body:not(.no-transition) #wrapper,
 	margin:0!important;
 	padding:0!important
 }
+
+/* ----------------------------------------------------------------
+	40. Home Elements
+-----------------------------------------------------------------*/
+
+#content .comp-people {
+	background-color: #eff3f8;
+}
+
+.comp-people .diagram h1 {
+	font-size: 40px;
+}
+
+.comp-people .diagram h3 {
+	color: #94A0B2;
+}
+
+@media (min-width: 992px) {
+.comp-people .plus i {
+	margin-top: 100px;
+}
+}
+
+#content .unlimited {
+	background-color: #2C3E50;
+	text-align: center;
+}
+
+@media (min-width: 992px) {
+#content .unlimited {
+	text-align: right;
+}
+}
+
+#content .unlimited h1, #content .unlimited h5 {
+	color: #fff;
+}
+
+#content .unlimited h3 {
+	color: #94A0B2;
+}

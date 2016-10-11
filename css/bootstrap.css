@@ -2373,6 +2373,25 @@ fieldset[disabled] .btn-primary.focus {
 	color: #337ab7;
 	background-color: #ffffff;
 }
+.btn-white {
+	color: #263238 !important;
+	background-color: #fff;
+	border-color: #fff;
+}
+.btn-white.btn-outline {
+    color: #fff !important;
+		background-color: transparent;
+}
+.btn-white.btn-outline:hover {
+    color: #263238 !important;
+		background-color: #fff;
+		border-color: #fff;
+}
+.btn-white:hover {
+	color: #fff;
+	background-color: #263238;
+	border-color: #263238;
+}
 .btn-success {
 	color: #ffffff;
 	background-color: #5cb85c;
