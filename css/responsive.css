@@ -670,7 +670,7 @@
 	#page-submenu-trigger {
 		opacity: 1;
 		pointer-events: auto;
-		color: #FFF;
+		color: #263238;
 	}
 
 	#page-menu.pagemenu-active #page-submenu-trigger { background-color: rgba(0,0,0,0.2); }
@@ -684,7 +684,7 @@
 		left: auto;
 		right: 15px;
 		height: auto;
-		background-color: #1ABC9C;
+		background-color: #e1e5ec;
 		z-index: 11;
 	}
 
@@ -692,7 +692,7 @@
 
 	#page-menu nav ul {
 		height: auto;
-		background-color: rgba(0,0,0,0.2);
+		background-color: #e1e5ec;
 	}
 
 	#page-menu nav li { float: none; }
