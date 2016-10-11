@@ -957,6 +957,7 @@ html[xmlns] .slider-wrap {display: block;}
 
 #header.transparent-header + #slider,
 #header.transparent-header + #page-title.page-title-parallax,
+#header.transparent-header + #page-title.page-title-hero,
 #header.transparent-header + #google-map,
 #slider + #header.transparent-header {
 	top: -100px;
@@ -970,6 +971,11 @@ html[xmlns] .slider-wrap {display: block;}
 }
 
 #header.transparent-header + #page-title.page-title-parallax .container {
+	z-index: 5;
+	padding-top: 100px;
+}
+
+#header.transparent-header + #page-title.page-title-hero .container {
 	z-index: 5;
 	padding-top: 100px;
 }
@@ -3342,7 +3348,6 @@ body:not(.stretched) .slider-parallax .slider-parallax-inner { left: auto; }
 	letter-spacing: 1px;
 	color: #333;
 	font-size: 28px;
-	text-transform: uppercase;
 }
 
 #page-title span {
@@ -3385,6 +3390,8 @@ body.stretched .container-fullwidth .breadcrumb { right: 60px !important; }
 }
 
 #page-title.page-title-dark h1 { color: rgba(255,255,255,0.9) !important; }
+
+#page-title.page-title-dark h2 { color: rgba(255,255,255,0.7) !important; }
 
 #page-title.page-title-dark span { color: rgba(255,255,255,0.7); }
 
@@ -3452,6 +3459,40 @@ body.stretched .container-fullwidth .breadcrumb { right: 60px !important; }
 #page-title.page-title-parallax .breadcrumb { font-size: 13px; }
 
 #page-title.page-title-parallax {
+	background-color: #263238;
+	background-image: url();
+	background-attachment: fixed;
+	background-position: 50% 0;
+	background-repeat: no-repeat;
+}
+
+/* Page Title - Hero Banner
+-----------------------------------------------------------------*/
+
+#page-title.page-title-hero {
+	padding: 100px 0;
+	text-shadow: none;
+	border-bottom: none;
+}
+
+#page-title.page-title-hero h1 {
+	font-size: 60px;
+	font-weight: 600;
+	letter-spacing: 2px;
+	margin-bottom: 20px;
+}
+
+@media (max-width: 767px) {
+#page-title.page-title-hero h1 {
+	font-size: 36px;
+}
+}
+
+#page-title.page-title-hero span { font-size: 22px; }
+
+#page-title.page-title-hero .breadcrumb { font-size: 13px; }
+
+#page-title.page-title-hero {
 	background-color: #263238;
 	background-image: url();
 	background-attachment: fixed;
