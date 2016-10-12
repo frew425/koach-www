@@ -1738,14 +1738,14 @@ output {
 .form-control {
 	display: block;
 	width: 100%;
-	height: 34px;
+	height: 36px;
 	padding: 6px 12px;
 	font-size: 14px;
 	line-height: 1.42857143;
 	color: #555555;
 	background-color: #ffffff;
 	background-image: none;
-	border: 1px solid #cccccc;
+	border: 1px solid #eff3f8;
 	border-radius: 4px;
 	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
 	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
@@ -2391,6 +2391,25 @@ fieldset[disabled] .btn-primary.focus {
 	color: #fff;
 	background-color: #263238;
 	border-color: #263238;
+}
+.btn-dark {
+	color: #fff !important;
+	background-color: #263238;
+	border-color: #263238;
+}
+.btn-dark.btn-outline {
+    color: #263238 !important;
+		background-color: transparent;
+}
+.btn-dark.btn-outline:hover {
+    color: #fff !important;
+		background-color: #263238;
+		border-color: #263238;
+}
+.btn-dark:hover {
+	color: #263238;
+	background-color: #fff;
+	border-color: #fff;
 }
 .btn-success {
 	color: #ffffff;
@@ -3124,8 +3143,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 	line-height: 1;
 	color: #555555;
 	text-align: center;
-	background-color: #eeeeee;
-	border: 1px solid #cccccc;
+	background-color: #e1e5ec;
+	border: 1px solid #e1e5ec;
 	border-radius: 4px;
 }
 .input-group-addon.input-sm {
