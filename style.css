@@ -11209,7 +11209,6 @@ label.error { display: none !important; }
 .emphasis-title h2 {
 	margin-bottom: 0;
 	font-weight: 700;
-	text-transform: uppercase;
 	letter-spacing: 2px;
 	color: #444d58;
 }
@@ -11221,7 +11220,7 @@ label.error { display: none !important; }
 	text-transform: none;
 }
 
-.heading-block h1 { font-size: 36px; }
+.heading-block h1 { font-size: 40px; }
 
 .heading-block h2 { font-size: 30px; }
 
@@ -11263,7 +11262,7 @@ label.error { display: none !important; }
 	display: block;
 	margin-top: 30px;
 	width: 40px;
-	border-top: 2px solid #ACB5C3;
+	border-top: 2px solid #08e8de;
 }
 
 .center .heading-block:after,
