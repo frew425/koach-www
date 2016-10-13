@@ -2002,6 +2002,14 @@ body:not(.device-sm):not(.device-xs):not(.device-xxs) #header.transparent-header
 	transition: height .4s ease, opacity .3s ease;
 }
 
+#logo svg {
+	height: 90px;
+	width: 187px;
+	-webkit-transition: all .4s ease;
+	-o-transition: all .4s ease;
+	transition: all .4s ease;
+}
+
 #header.sticky-style-2 { height: 161px; }
 
 #header.sticky-style-3 { height: 181px; }
@@ -2066,6 +2074,7 @@ body.top-search-open #top-account { opacity: 0; }
 #header.sticky-header:not(.static-sticky),
 #header.sticky-header:not(.static-sticky) #header-wrap,
 #header.sticky-header:not(.static-sticky):not(.sticky-style-2):not(.sticky-style-3) #logo img { height: 60px; }
+#header.sticky-header:not(.static-sticky):not(.sticky-style-2):not(.sticky-style-3) #logo svg { height: 60px; width: 125px; }
 
 #header.sticky-header:not(.static-sticky) #primary-menu > ul > li > a {
 	margin-top: 19px;
@@ -11972,11 +11981,35 @@ button.toast-close-button {
 	margin: 0 3px;
 	color: #94A0B2;
 	border-bottom: 1px dotted #E1E5EC;
+	transition: all .5s;
+	-webkit-transition: all .5s;
 }
 
 .copyright-links a:hover {
 	color: #08E8DE;
 	border-bottom: 1px solid #08E8DE;
+}
+
+@media (max-width: 767px) {
+.copyright-links {
+	text-align: center;
+	margin-bottom: 30px;
+}
+#footer .logo {
+	text-align: center !important;
+	margin: auto;
+}
+}
+
+#footer svg {
+	transition: all .5s;
+	-webkit-transition: all .5s;
+}
+
+#footer svg:hover #koach-k {
+  fill: #08E8DE !important;
+	transition: all .5s;
+	-webkit-transition: all .5s;
 }
 
 .copyrights-menu { margin-bottom: 10px; }
