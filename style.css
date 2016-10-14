@@ -11897,7 +11897,6 @@ button.toast-close-button {
 #footer {
 	position: relative;
 	background-color: #263238;
-	border-top: 1px solid #5e738b;
 	color: #94A0B2;
 }
 
@@ -11941,6 +11940,7 @@ button.toast-close-button {
 #footer .footer-widgets-wrap {
 	position: relative;
 	padding: 80px 0;
+	border-top: 1px solid #5e738b;
 }
 
 .footer-widgets-wrap .col_full,
@@ -11980,7 +11980,7 @@ button.toast-close-button {
 	display: inline-block;
 	margin: 0 3px;
 	color: #94A0B2;
-	border-bottom: 1px dotted #E1E5EC;
+	border-bottom: 1px dotted #94A0B2;
 	transition: all .5s;
 	-webkit-transition: all .5s;
 }
@@ -13680,4 +13680,31 @@ body:not(.no-transition) #wrapper,
 
 #content .connection h3 {
 	color: rgba(255, 255, 255, 0.6);
+}
+
+/* ----------------------------------------------------------------
+	41. How Elements
+-----------------------------------------------------------------*/
+
+#content .content-wrap.grey {
+	background-color: #eff3f8;
+}
+
+section.how h3 {
+	font-size: 22px;
+}
+
+@media (max-width: 992px) {
+section.how .col-padding {
+    padding: 10px;
+    text-align: center;
+}
+
+section.how .topmargin {
+    margin-top: 0px !important;
+}
+
+section.how .heading-block:after {
+    margin: 30px auto;
+}
 }
