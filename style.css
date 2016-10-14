@@ -9090,15 +9090,15 @@ body:not(.device-touch) .social-icon i {
 
 .acctitle {
 	display: block;
-	position: relative;
-	line-height: 24px;
-	margin: 0;
-	font-size: 14px;
-	font-weight: bold;
-	color: #444;
-	cursor: pointer;
-	border-top: 1px dotted #DDD;
-	padding: 10px 0 10px 20px;
+  position: relative;
+  line-height: 1.5;
+  margin: 0;
+  font-size: 25px;
+  font-weight: 300;
+  color: #444d58;
+  cursor: pointer;
+  border-top: 1px dotted #DDD;
+  padding: 10px 0 10px 35px;
 }
 
 .acctitlec { cursor: auto; }
@@ -9109,10 +9109,10 @@ body:not(.device-touch) .social-icon i {
 	position: absolute;
 	top: 0;
 	left: 0;
-	width: 14px;
-	text-align: center;
-	font-size: 14px;
-	line-height: 44px;
+	width: 25px;
+  text-align: center;
+  font-size: 25px;
+  line-height: 55px;
 }
 
 .acctitle i.acc-open,
@@ -9122,7 +9122,8 @@ body:not(.device-touch) .social-icon i {
 
 .acc_content {
 	position: relative;
-	padding: 0 0 15px 20px;
+	padding: 0 0 15px 35px;
+  font-size: 18px;
 }
 
 
@@ -10050,16 +10051,62 @@ body:not(.device-touch) .team-overlay {
 	border-radius: 3px;
 	text-align: center;
 	box-shadow: 0 1px 1px rgba(0,0,0,0.1);
-	background-color: #F5F5F5;
+	background-color: rgba(225, 229, 236, 0.50);
 }
 
+/* Pricing Boxes - Bronze
+-----------------------------------------------------------------*/
+
+.bronze .pricing-title {
+	border-bottom: 2px solid #965A38;
+}
+
+.bronze .pricing-price {
+	color: #965A38;
+}
+
+.bronze .pricing-title h3 {
+	color: #965A38;
+}
+
+/* Pricing Boxes - Silver
+-----------------------------------------------------------------*/
+
+.silver .pricing-title {
+	border-bottom: 2px solid #94A0B2;
+}
+
+.silver .pricing-title span {
+    color: #94A0B2;
+	}
+
+.silver .pricing-price {
+	color: #94A0B2 !important;
+}
+
+.silver .pricing-title h3 {
+	color: #94A0B2;
+}
+
+/* Pricing Boxes - Gold
+-----------------------------------------------------------------*/
+
+.gold .pricing-title {
+	border-bottom: 2px solid #d9a441;
+}
+
+.gold .pricing-price {
+	color: #d9a441;
+}
+.gold .pricing-title h3 {
+	color: #d9a441;
+}
 
 /* Pricing Boxes - Title
 -----------------------------------------------------------------*/
 
 .pricing-title {
 	padding: 15px 0;
-	background-color: #F9F9F9;
 	border-radius: 3px 3px 0 0;
 	text-shadow: 1px 1px 1px #FFF;
 	border-bottom: 1px solid rgba(0,0,0,0.05);
@@ -10067,11 +10114,9 @@ body:not(.device-touch) .team-overlay {
 
 .pricing-title h3 {
 	margin: 0;
-	font-size: 20px;
 	letter-spacing: 1px;
 	font-weight: bold;
 	text-transform: uppercase;
-	color: #555;
 }
 
 .pricing-title span {
@@ -10090,7 +10135,6 @@ body:not(.device-touch) .team-overlay {
 .pricing-price {
 	position: relative;
 	padding: 25px 0;
-	color: #333;
 	font-weight: 300;
 	font-size: 64px;
 	line-height: 1;
@@ -10119,7 +10163,6 @@ body:not(.device-touch) .team-overlay {
 	vertical-align: baseline;
 	font-size: 16px;
 	font-weight: normal;
-	color: #999;
 	margin: 0 0 0 3px;
 }
 
@@ -10163,7 +10206,7 @@ body:not(.device-touch) .team-overlay {
 	padding: 20px 0;
 }
 
-.pricing-box.best-price .pricing-title h3 { font-size: 22px; }
+.pricing-box.best-price .pricing-title h3 { font-size: 28px; }
 
 .pricing-box.best-price .pricing-price {
 	color: #1ABC9C;
