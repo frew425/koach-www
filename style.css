@@ -13751,3 +13751,15 @@ section.how .heading-block:after {
     margin: 30px auto;
 }
 }
+
+/* ----------------------------------------------------------------
+	42. Get Started - Coming Soon
+-----------------------------------------------------------------*/
+
+.content-wrap.soon h1, .content-wrap.soon span {
+	color: rgba(255,255,255,0.9);
+}
+
+.soon .subscribe-widget i {
+	color: #263238;
+}
