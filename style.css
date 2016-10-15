@@ -3564,13 +3564,13 @@ body.stretched .container-fullwidth .breadcrumb { right: 60px !important; }
 	background-color: #FFF;
 }
 
-#content a {
+#content a:not(.btn) {
 	border-bottom: 1px solid #2AB4C0;
 	transition: all .2s;
 	-webkit-transition: all .2s;
 }
 
-#content a:hover {
+#content a:not(.btn):hover {
 	padding-bottom: 2px;
 }
 
