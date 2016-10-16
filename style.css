@@ -11487,6 +11487,18 @@ label.error { display: none !important; }
 	border-top: 1px solid #EEE;
 }
 
+.home.divider:after,
+.divider.divider-center:before,
+.divider.divider-center.divider-short:before {
+	content: '';
+	position: absolute;
+	width: 100%;
+	top: 8px;
+	left: 30px;
+	height: 0;
+	border-top: 1px solid #94A0B2;
+}
+
 .divider.divider-thick:after,
 .divider.divider-center.divider-thick:before,
 .divider.divider-center.divider-short.divider-thick:before { border-top-width: 3px; }
