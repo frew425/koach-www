@@ -5,8 +5,8 @@ require_once('phpmailer/PHPMailerAutoload.php');
 $toemails = array();
 
 $toemails[] = array(
-				'email' => 'username@website.com', // Your Email Address
-				'name' => 'Your Name' // Your Name
+				'email' => 'frew425@gmail.com', // Your Email Address
+				'name' => 'Koach' // Your Name
 			);
 
 // Form Processing Messages
@@ -18,6 +18,14 @@ $recaptcha_secret = ''; // Your reCaptcha Secret
 $mail = new PHPMailer();
 
 // If you intend you use SMTP, add your SMTP Code after this Line
+
+$mail->IsSMTP();
+$mail->Host = "smtp.gmail.com";
+$mail->SMTPDebug = 2;
+$mail->SMTPAuth = true;
+$mail->Port = 465;
+$mail->Username = "frew425@gmail.com";
+$mail->Password = "cfrew425";
 
 
 if( $_SERVER['REQUEST_METHOD'] == 'POST' ) {
